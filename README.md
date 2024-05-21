@@ -2,23 +2,21 @@
 <!-- markdownlint-disable -->
 <div align="center">
   <h1>OHIF Medical Imaging Viewer</h1>
-  <p><strong>The OHIF Viewer</strong> is a zero-footprint medical image viewer
-provided by the <a href="https://ohif.org/">Open Health Imaging Foundation (OHIF)</a>. It is a configurable and extensible progressive web application with out-of-the-box support for image archives which support <a href="https://www.dicomstandard.org/using/dicomweb/">DICOMweb</a>.</p>
 </div>
+  <div> 
+  <p><strong>OHIF 浏览器</strong> 是零排放的医疗影像浏览器，
+基于<a href="https://ohif.org/">Open Health Imaging 基金会 (OHIF)</a>. 是一款可配置和可扩展的渐进式web应用程序，支持<a href="https://www.dicomstandard.org/using/dicomweb/">DICOMweb</a>图像开箱即用 .</p>
+  </div>
 
-
 <div align="center">
-  <a href="https://docs.ohif.org/"><strong>Read The Docs</strong></a>
+  <a href="https://docs.ohif.org/"><strong>阅读文档</strong></a>
 </div>
 <div align="center">
-  <a href="https://viewer.ohif.org/">Live Demo</a> |
-  <a href="https://ui.ohif.org/">Component Library</a>
+  <a href="https://viewer.ohif.org/">在线演示</a> |
+  <a href="https://ui.ohif.org/">组件库</a>
 </div>
 <div align="center">
-  📰 <a href="https://ohif.org/news/"><strong>Join OHIF Newsletter</strong></a> 📰
-</div>
-<div align="center">
-  📰 <a href="https://ohif.org/news/"><strong>Join OHIF Newsletter</strong></a> 📰
+  📰 <a href="https://ohif.org/news/"><strong>加入OHIF通讯</strong></a> 📰
 </div>
 
 
@@ -41,28 +39,22 @@ provided by the <a href="https://ohif.org/">Open Health Imaging Foundation (OHIF
 
 |     |  | |
 | :-: | :---  | :--- |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-measurements.webp?raw=true" alt="Measurement tracking" width="350"/> | Measurement Tracking | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.25403.345050719074.3824.20170125095438.5) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-segmentation.webp?raw=true" alt="Segmentations" width="350"/> | Labelmap Segmentations  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.12.2.1107.5.2.32.35162.30000015050317233592200000046) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-ptct.webp?raw=true" alt="Hanging Protocols" width="350"/> | Fusion and Custom Hanging protocols  | [Demo](https://viewer.ohif.org/tmtv?StudyInstanceUIDs=1.3.6.1.4.1.14519.5.2.1.7009.2403.334240657131972136850343327463) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-volume-rendering.webp?raw=true" alt="Volume Rendering" width="350"/> | Volume Rendering  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.25403.345050719074.3824.20170125095438.5&hangingprotocolId=mprAnd3DVolumeViewport) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-measurements.webp?raw=true" alt="Measurement tracking" width="350"/> | 测量跟踪 | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.25403.345050719074.3824.20170125095438.5) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-segmentation.webp?raw=true" alt="Segmentations" width="350"/> | Labelmap分割  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.12.2.1107.5.2.32.35162.30000015050317233592200000046) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-ptct.webp?raw=true" alt="Hanging Protocols" width="350"/> | 融合和自定义悬挂协议  | [Demo](https://viewer.ohif.org/tmtv?StudyInstanceUIDs=1.3.6.1.4.1.14519.5.2.1.7009.2403.334240657131972136850343327463) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-volume-rendering.webp?raw=true" alt="Volume Rendering" width="350"/> | 体绘制  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.25403.345050719074.3824.20170125095438.5&hangingprotocolId=mprAnd3DVolumeViewport) |
 | <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-pdf.webp?raw=true" alt="PDF" width="350"/> | PDF  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=2.25.317377619501274872606137091638706705333) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-rtstruct.webp?raw=true" alt="RTSTRUCT" width="350"/> | RT STRUCT  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.5962.99.1.2968617883.1314880426.1493322302363.3.0) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-rtstruct.webp?raw=true" alt="RTSTRUCT" width="350"/> | RT 结构体  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=1.3.6.1.4.1.5962.99.1.2968617883.1314880426.1493322302363.3.0) |
 | <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-4d.webp?raw=true" alt="4D" width="350"/> | 4D  | [Demo](https://viewer.ohif.org/dynamic-volume?StudyInstanceUIDs=2.25.232704420736447710317909004159492840763) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-video.webp?raw=true" alt="VIDEO" width="350"/> | Video  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=2.25.96975534054447904995905761963464388233) |
-| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/microscopy.webp?raw=true" alt="microscopy" width="350"/> | Slide Microscopy  | [Demo](https://viewer.ohif.org/microscopy?StudyInstanceUIDs=2.25.141277760791347900862109212450152067508) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-video.webp?raw=true" alt="VIDEO" width="350"/> | 视频  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=2.25.96975534054447904995905761963464388233) |
+| <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/microscopy.webp?raw=true" alt="microscopy" width="350"/> | 幻灯片显微镜  | [Demo](https://viewer.ohif.org/microscopy?StudyInstanceUIDs=2.25.141277760791347900862109212450152067508) |
 
 
 ## About
 
-The OHIF Viewer can retrieve
-and load images from most sources and formats; render sets in 2D, 3D, and
-reconstructed representations; allows for the manipulation, annotation, and
-serialization of observations; supports internationalization, OpenID Connect,
-offline use, hotkeys, and many more features.
+ohif查看器可以从大多数来源和格式检索和加载图像;2D、3D和重构表示的渲染集;允许对观察值进行操作、注释和序列化;支持国际化、OpenID Connect、离线使用、热键和许多其他特性。
 
-Almost everything offers some degree of customization and configuration. If it
-doesn't support something you need, we accept pull requests and have an ever
-improving Extension System.
+几乎所有的东西都提供一定程度的定制和配置。如果它不支持你需要的东西，我们接受拉请求，并有一个不断改进的扩展系统。
 
 ## Why Choose Us
 
@@ -75,25 +67,19 @@ contributions of individuals, research groups, and commercial organizations.
 
 ### Built to Adapt
 
-After more than 8-years of integrating with many companies and organizations,
-The OHIF Viewer has been rebuilt from the ground up to better address the
-varying workflow and configuration needs of its many users. All of the Viewer's
-core features are built using it's own extension system. The same extensibility
-that allows us to offer:
+在与许多公司和组织集成了8年多之后，ohif Viewer已经从头开始重建，以更好地满足其众多用户的不同工作流程和配置需求。查看器的所有核心功能都是使用它自己的扩展系统构建的。同样的可扩展性允许我们提供:
 
-- 2D and 3D medical image viewing
-- Multiplanar Reconstruction (MPR)
+- 2D and 3D 医学影像查看
+- 多平面重建 (MPR)
 - Maximum Intensity Project (MIP)
-- Whole slide microscopy viewing
-- PDF and Dicom Structured Report rendering
-- Segmentation rendering as labelmaps and contours
-- User Access Control (UAC)
-- Context specific toolbar and side panel content
-- and many others
+- 整片显微镜观察
+- PDF和Dicom结构化报告
+- 分割渲染为标签映射和轮廓
+- 用户访问控制 (UAC)
+- 特定于上下文的工具栏和侧板内容
+- 很多其他的
 
-Can be leveraged by you to customize the viewer for your workflow, and to add
-any new functionality you may need (and wish to maintain privately without
-forking).
+您可以利用它为您的工作流定制查看器，并添加您可能需要的任何新功能(并且希望在不分叉的情况下私下维护)。
 
 ### Support
 
@@ -137,14 +123,14 @@ Here is a schematic representation of our development workflow:
 
 
 
-### Requirements
+### 需求
 
 - [Yarn 1.17.3+](https://yarnpkg.com/en/docs/install)
 - [Node 18+](https://nodejs.org/en/)
-- Yarn Workspaces should be enabled on your machine:
+- 在您的机器上启用Yarn工作区:
   - `yarn config set workspaces-experimental true`
 
-### Getting Started
+### 开始
 
 1. [Fork this repository][how-to-fork]
 2. [Clone your forked repository][how-to-clone]
@@ -154,9 +140,9 @@ Here is a schematic representation of our development workflow:
    - `git remote add upstream https://github.com/OHIF/Viewers.git`
 5. `yarn install` to restore dependencies and link projects
 
-#### To Develop
+#### 开发
 
-_From this repository's root directory:_
+_从这个存储库的根目录执行以下命令:_
 
 ```bash
 # Enable Yarn Workspaces
@@ -166,29 +152,23 @@ yarn config set workspaces-experimental true
 yarn install
 ```
 
-## Commands
+## 命令
 
-These commands are available from the root directory. Each project directory
-also supports a number of commands that can be found in their respective
-`README.md` and `package.json` files.
-
-| Yarn Commands                | Description                                                   |
+这些命令可以从根目录中获得。每个项目目录还支持许多命令，这些命令可以在它们各自的`README.md` 和 `package.json`文件中找到。
+| Yarn 命令                | 描述                                                   |
 | ---------------------------- | ------------------------------------------------------------- |
-| **Develop**                  |                                                               |
-| `dev` or `start`             | Default development experience for Viewer                     |
-| `test:unit`                  | Jest multi-project test runner; overall coverage              |
-| **Deploy**                   |                                                               |
-| `build`\*                    | Builds production output for our PWA Viewer                   |  |
+| **开发**                  |                                                               |
+| `dev` or `start`             | Viewer的默认开发命令                     |
+| `test:unit`                  | Jest多项目测试运行器;全面覆盖              |
+| **部署**                   |                                                               |
+| `build`\*                    | 构建输出PWA查看器                   |  |
 
 \* - For more information on our different builds, check out our [Deploy
 Docs][deployment-docs]
 
-## Project
+## 工程
 
-The OHIF Medical Image Viewing Platform is maintained as a
-[`monorepo`][monorepo]. This means that this repository, instead of containing a
-single project, contains many projects. If you explore our project structure,
-you'll see the following:
+OHIF医学图像观看平台作为一个[`monorepo`][monorepo]进行维护。这意味着该存储库不是包含单个项目，而是包含许多项目。如果您探索我们的项目结构，您将看到以下内容:
 
 ```bash
 .
