@@ -49,7 +49,6 @@
 | <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/demo-video.webp?raw=true" alt="VIDEO" width="350"/> | 视频  | [Demo](https://viewer.ohif.org/viewer?StudyInstanceUIDs=2.25.96975534054447904995905761963464388233) |
 | <img src="https://github.com/OHIF/Viewers/blob/master/platform/docs/docs/assets/img/microscopy.webp?raw=true" alt="microscopy" width="350"/> | 幻灯片显微镜  | [Demo](https://viewer.ohif.org/microscopy?StudyInstanceUIDs=2.25.141277760791347900862109212450152067508) |
 
-
 ## About
 
 ohif查看器可以从大多数来源和格式检索和加载图像;2D、3D和重构表示的渲染集;允许对观察值进行操作、注释和序列化;支持国际化、OpenID Connect、离线使用、热键和许多其他特性。
@@ -105,19 +104,16 @@ This is typically where the latest development happens. Code that is in the mast
 
 Each package is tagged with beta version numbers, and published to npm such as `@ohif/ui@3.6.0-beta.1`
 
-### `release` branch - The latest stable release
+### `release/*` branches - The latest stable releases
+Once the `master` branch code reaches a stable, release-ready state, we conduct a comprehensive code review and QA testing. Upon approval, we create a new release branch from `master`. These branches represent the latest stable version considered ready for production.
 
-This branch represents the latest stable version of the project that is considered ready for production. The code in this branch should be fully tested and vetted for release. Once the code in the master branch reaches a state where it's stable and ready to be released to users,
-we do a comprehensive code review and QA testing. Once the code is approved,
-we merge it into the release branch and tag a new release.
+For example, `release/3.5` is the branch for version 3.5.0, and `release/3.6` is for version 3.6.0. After each release, we wait a few days to ensure no critical bugs. If any are found, we fix them in the release branch and create a new release with a minor version bump, e.g., 3.5.1 in the `release/3.5` branch.
 
-Each package is tagged with version numbers, and published to npm such as `@ohif/ui@3.5.0`
-
-Note: `master` is always ahead of `release` branch. We publish both docker builds for beta and stable releases.
+Each package is tagged with version numbers and published to npm, such as `@ohif/ui@3.5.0`. Note that `master` is always ahead of the `release` branch. We publish docker builds for both beta and stable releases.
 
 Here is a schematic representation of our development workflow:
 
-![Alt text](platform/docs/docs/assets/img/github-readme-branches.png)
+![alt text](platform/docs/docs/assets/img/github-readme-branches-Jun2024.png)
 
 
 
